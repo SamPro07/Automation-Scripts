@@ -23,7 +23,7 @@ def delete_repository(repo_name):
         print(f"An error occurred: {e}")
 
 # List of repositories to be deleted
-repositories_to_delete = ['repo1', 'repo2', 'repo3']  # Add your repository names here
+repositories_to_delete = ['', '', '']  # Add your repository names here
 
 print("The following repositories are scheduled for deletion:")
 for repo in repositories_to_delete:
